@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <h1>Meme Generator</h1>
       <Routes>
-        <Route path="/" element={<Homepage />} />
+        <Route path="/meme-app" element={<Homepage />} />
         <Route path="/edit"element={<EditPage />} />
       </Routes>
     </div>
